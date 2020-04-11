@@ -1,13 +1,15 @@
 
 const express = require("express");
+const cors = require("cors");
 const db = require("./database.js");
 
 const server = express();
 server.use(express.json());
+server.use(cors())
 
 server.get("/api/", (req,res) => {
 
-    res.json({message: "Welcome to Node Project One"});
+    res.json({message: "Welcome to Node Project One"}); 
 
 })
 
