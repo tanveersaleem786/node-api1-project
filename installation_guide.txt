@@ -1,0 +1,11 @@
+npm install express --save
+npm i cors                 [that is the middleware]
+npm install nodemon --save--dev  [will restart the server if we made any change in js file 
+and not need to install on production]
+
+
+
+client Installation
+--------------------
+node-api1-project:/> npx create-react-app client
+clien:/> npm install
